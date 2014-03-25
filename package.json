@@ -1,0 +1,41 @@
+{
+  "name": "vern-authentication-linkedin",
+  "version": "0.0.1",
+  "description": "Username/password authentication for using Linked-In with Vern.",
+  "main": "lib/LinkedInController.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uh-sem-blee/vern-authentication-linkedin"
+  },
+  "keywords": [
+    "vern",
+    "mvc",
+    "rest",
+    "api",
+    "angularjs",
+    "mongodb",
+    "less",
+    "framework",
+    "platform"
+  ],
+  "author": "uh-sem-blee",
+  "license": "Copyright 2014 uh-sem-blee, Co.",
+  "bugs": {
+    "url": "https://github.com/uh-sem-blee/vern-authentication-linkedin/issues"
+  },
+  "homepage": "https://github.com/uh-sem-blee/vern-authentication-linkedin",
+  "devDependencies": {
+    "vern-core": "latest",
+    "vern-authentication": "latest"
+  },
+  "dependencies": {
+    "vern-core": "^0.1.9",
+    "validator": "^3.5.0",
+    "node.extend": "^1.0.10",
+    "request": "^2.34.0",
+    "linkedin-node-new": "0.0.2"
+  }
+}
